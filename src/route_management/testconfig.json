@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "name": "dest1",
+            "remoteIp": "127.0.0.1",
+            "remotePort": 2345
+        },
+        {
+            "name": "dest2",
+            "remoteIp": "127.0.0.1",
+            "remotePort": 1235
+        }
+    ]
+}
