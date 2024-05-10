@@ -8,7 +8,7 @@ class RouteManager():
         self.routes = {}
         
     def set_config_file(self, file_name: str):
-        self.file_name = os.path.dirname(os.path.abspath(__file__)) + "\\" + file_name
+        self.file_name = os.path.dirname(os.path.abspath(__file__)) + "/" + file_name
     
     def load_routes(self):
         with open(self.file_name) as route_config:
